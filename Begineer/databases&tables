@@ -1,0 +1,7 @@
+create database mechatronics;
+show databases;
+use mechatronics;
+create table details(Roll_no varchar(10) not null,name varchar(25) not null,year int(5) not null,college varchar(15),cgpa int(5),email varchar(35), dob varchar(10),mobile_no int(15),year_of_passout int(10));
+describe details;
+insert details values("15BMC205","VIJAYRAM","4","KCT","7","vijayramkarthikeyan@gmail.com","19-08-1998","1234567890","2019");
+select * from details;
