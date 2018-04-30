@@ -1,0 +1,10 @@
+create database mechatronics;
+show databases;
+use mechatronics;
+create table details(Roll_no varchar(10) not null,name varchar(25) not null,year int(5) not null,college varchar(15));
+describe details;
+insert details values("15BMC205","VIJAYRAM","4","KCT");
+insert details values("15BMC206","virat","4","KCT");
+insert details values("15BMC207","kholi","4","KCT");
+select * from details where name="virat";
+select * from details where name="kholi";
