@@ -1,0 +1,29 @@
+create database student_record;
+use student_record;
+create table students(ID integer(15),Name char(15),AGE integer(15));
+insert into students values('01','Vinodini','25');
+insert into students values('02','Banu','27');
+insert into students values('03','Kaushik','23');
+insert into students values('04','Praveen','25');
+insert into students values('05','Kamal','22');
+insert into students values('06','Malini','24');
+insert into students values('07','Ramesh','32');
+desc students;
+SELECT * from students where age = '32' or age= '22';
+select * from students;
+
+
+
+
+
+
+example -
+SELECT * from myfriends where age <= '20' and first_name='mickey';
+
+SELECT * from myfriends where age <= '20' or first_name='mickey';
+
+SELECT * from myfriends where first_name like '%a%';
+
+SELECT * from myfriends where first_name not like '%a%';
+
+SELECT * from myfriends where sex in ('M','F');
