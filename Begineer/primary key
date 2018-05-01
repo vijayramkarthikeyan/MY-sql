@@ -1,0 +1,6 @@
+create database employees;
+show databases;
+use employees;
+create table employee_details(employee_no varchar(10) not null,name varchar(25) not null,experience int(5) not null,company varchar(15));
+describe employee_details;
+insert employee_details values("007","VISHAL","1","TCS");
