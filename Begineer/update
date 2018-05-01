@@ -1,0 +1,15 @@
+create database guvi;
+use guvi;
+create table students(ID integer(25),Name char(25),AGE integer(25),Address varchar(25),Salary integer(25));
+insert into students(ID,Name,AGE,Address,Salary) values('01','Ramesh','32','Ahmedabad','2000');
+insert into students values('02','Khilan','25','Delhi','1500');
+insert into students values('03','Kaushik','23','kota','2000');
+insert into students values('04','Chaitali','25','mumabai','6500');
+insert into students values('05','Hardik','27','Bhopal','8500');
+insert into students values('06','Komal','22','mp','4500');
+insert into students values('07','Muffy','24','Indore','10000');
+desc students;
+UPDATE students SET Address='Maharastra'  WHERE Name = 'Komal';
+select * from students;
+
+
