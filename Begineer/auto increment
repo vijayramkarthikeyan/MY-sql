@@ -1,0 +1,13 @@
+
+create database guvi;
+use guvi;
+create table students(ID integer(25) AUTO_INCREMENT,Name char(25),AGE integer(25),primary key (ID));
+insert into students(Name,AGE) values('Vinodini','25');
+insert into students(Name,AGE) values('Banu','27');
+insert into students(Name,AGE) values('Kaushik','23');
+insert into students(Name,AGE) values('Praveen','25');
+insert into students(Name,AGE) values('Kamal','22');
+insert into students(Name,AGE) values('Malini','24');
+insert into students(Name,AGE) values('Ramesh','32');
+select * from students;
+
